@@ -11,7 +11,7 @@
     ],
     "python.analysis.extraPaths": [
         "~/.micropico-stubs/included",
-        "~/embedded_projects/maze2026/main_pico2/lib",
+        "~/embedded_projects/maze2026/The-Pythons-RCJ-Rescue-Maze-2026/pico/lib",
         "~/.local/lib/python3.*/site-packages"
     ]
 }
