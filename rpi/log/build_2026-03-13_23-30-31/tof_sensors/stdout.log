@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing tof_sensors.egg-info/PKG-INFO
+writing dependency_links to tof_sensors.egg-info/dependency_links.txt
+writing entry points to tof_sensors.egg-info/entry_points.txt
+writing requirements to tof_sensors.egg-info/requires.txt
+writing top-level names to tof_sensors.egg-info/top_level.txt
+reading manifest file 'tof_sensors.egg-info/SOURCES.txt'
+writing manifest file 'tof_sensors.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages/tof-sensors.egg-link (link to .)
+Installing tof_node script to /home/rpi/rc_maze/install/tof_sensors/lib/tof_sensors
+
+Installed /home/rpi/rc_maze/build/tof_sensors
+running symlink_data

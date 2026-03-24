@@ -1,0 +1,38 @@
+[1.498s] Invoking command in '/home/rpi/rc_maze/src/tof_sensors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rpi/rc_maze/build/tof_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tof_sensors build --build-base /home/rpi/rc_maze/build/tof_sensors/build install --record /home/rpi/rc_maze/build/tof_sensors/install.log --single-version-externally-managed install_data
+[1.867s] running egg_info
+[1.867s] creating ../../build/tof_sensors/tof_sensors.egg-info
+[1.894s] writing ../../build/tof_sensors/tof_sensors.egg-info/PKG-INFO
+[1.894s] writing dependency_links to ../../build/tof_sensors/tof_sensors.egg-info/dependency_links.txt
+[1.895s] writing entry points to ../../build/tof_sensors/tof_sensors.egg-info/entry_points.txt
+[1.895s] writing requirements to ../../build/tof_sensors/tof_sensors.egg-info/requires.txt
+[1.895s] writing top-level names to ../../build/tof_sensors/tof_sensors.egg-info/top_level.txt
+[1.895s] writing manifest file '../../build/tof_sensors/tof_sensors.egg-info/SOURCES.txt'
+[1.949s] reading manifest file '../../build/tof_sensors/tof_sensors.egg-info/SOURCES.txt'
+[1.950s] adding license file 'LICENSE'
+[1.950s] writing manifest file '../../build/tof_sensors/tof_sensors.egg-info/SOURCES.txt'
+[1.951s] running build
+[1.951s] running build_py
+[1.951s] creating /home/rpi/rc_maze/build/tof_sensors/build
+[1.951s] creating /home/rpi/rc_maze/build/tof_sensors/build/lib
+[1.951s] creating /home/rpi/rc_maze/build/tof_sensors/build/lib/tof_sensors
+[1.951s] copying tof_sensors/__init__.py -> /home/rpi/rc_maze/build/tof_sensors/build/lib/tof_sensors
+[1.951s] copying tof_sensors/read_sensors.py -> /home/rpi/rc_maze/build/tof_sensors/build/lib/tof_sensors
+[1.952s] running install
+[1.961s] running install_lib
+[1.988s] creating /home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages/tof_sensors
+[1.989s] copying /home/rpi/rc_maze/build/tof_sensors/build/lib/tof_sensors/__init__.py -> /home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages/tof_sensors
+[1.989s] copying /home/rpi/rc_maze/build/tof_sensors/build/lib/tof_sensors/read_sensors.py -> /home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages/tof_sensors
+[1.989s] byte-compiling /home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages/tof_sensors/__init__.py to __init__.cpython-312.pyc
+[1.990s] byte-compiling /home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages/tof_sensors/read_sensors.py to read_sensors.cpython-312.pyc
+[1.991s] running install_data
+[1.991s] creating /home/rpi/rc_maze/install/tof_sensors/share/ament_index
+[1.991s] creating /home/rpi/rc_maze/install/tof_sensors/share/ament_index/resource_index
+[1.991s] creating /home/rpi/rc_maze/install/tof_sensors/share/ament_index/resource_index/packages
+[1.991s] copying resource/tof_sensors -> /home/rpi/rc_maze/install/tof_sensors/share/ament_index/resource_index/packages
+[1.991s] copying package.xml -> /home/rpi/rc_maze/install/tof_sensors/share/tof_sensors
+[1.991s] running install_egg_info
+[2.020s] Copying ../../build/tof_sensors/tof_sensors.egg-info to /home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages/tof_sensors-0.0.0-py3.12.egg-info
+[2.022s] running install_scripts
+[2.210s] Installing tof_node script to /home/rpi/rc_maze/install/tof_sensors/lib/tof_sensors
+[2.210s] writing list of installed files to '/home/rpi/rc_maze/build/tof_sensors/install.log'
+[2.286s] Invoked command in '/home/rpi/rc_maze/src/tof_sensors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rpi/rc_maze/build/tof_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/tof_sensors build --build-base /home/rpi/rc_maze/build/tof_sensors/build install --record /home/rpi/rc_maze/build/tof_sensors/install.log --single-version-externally-managed install_data

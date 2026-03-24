@@ -1,0 +1,2 @@
+[console_scripts]
+uart_node = UART_comm.uart:main

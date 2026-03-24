@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating UART_comm.egg-info
+writing UART_comm.egg-info/PKG-INFO
+writing dependency_links to UART_comm.egg-info/dependency_links.txt
+writing entry points to UART_comm.egg-info/entry_points.txt
+writing requirements to UART_comm.egg-info/requires.txt
+writing top-level names to UART_comm.egg-info/top_level.txt
+writing manifest file 'UART_comm.egg-info/SOURCES.txt'
+reading manifest file 'UART_comm.egg-info/SOURCES.txt'
+writing manifest file 'UART_comm.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rpi/rc_maze/install/UART_comm/lib/python3.12/site-packages/UART-comm.egg-link (link to .)
+Installing uart_node script to /home/rpi/rc_maze/install/UART_comm/lib/UART_comm
+
+Installed /home/rpi/rc_maze/build/UART_comm
+running symlink_data
+creating /home/rpi/rc_maze/install/UART_comm/share/ament_index
+creating /home/rpi/rc_maze/install/UART_comm/share/ament_index/resource_index
+creating /home/rpi/rc_maze/install/UART_comm/share/ament_index/resource_index/packages
+symbolically linking /home/rpi/rc_maze/build/UART_comm/resource/UART_comm -> /home/rpi/rc_maze/install/UART_comm/share/ament_index/resource_index/packages
+symbolically linking /home/rpi/rc_maze/build/UART_comm/package.xml -> /home/rpi/rc_maze/install/UART_comm/share/UART_comm

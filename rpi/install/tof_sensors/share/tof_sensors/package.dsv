@@ -1,0 +1,9 @@
+source;share/tof_sensors/hook/pythonpath.ps1
+source;share/tof_sensors/hook/pythonpath.dsv
+source;share/tof_sensors/hook/pythonpath.sh
+source;share/tof_sensors/hook/ament_prefix_path.ps1
+source;share/tof_sensors/hook/ament_prefix_path.dsv
+source;share/tof_sensors/hook/ament_prefix_path.sh
+source;../../build/tof_sensors/share/tof_sensors/hook/pythonpath_develop.ps1
+source;../../build/tof_sensors/share/tof_sensors/hook/pythonpath_develop.dsv
+source;../../build/tof_sensors/share/tof_sensors/hook/pythonpath_develop.sh

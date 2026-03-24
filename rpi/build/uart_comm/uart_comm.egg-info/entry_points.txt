@@ -1,0 +1,3 @@
+[console_scripts]
+subscriber = uart_comm.subscriber:main
+uart_node = uart_comm.uart:main

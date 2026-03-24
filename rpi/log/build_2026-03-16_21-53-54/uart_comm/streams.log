@@ -1,0 +1,26 @@
+[1.620s] Invoking command in '/home/rpi/rc_maze/src/uart_comm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rpi/rc_maze/build/uart_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uart_comm build --build-base /home/rpi/rc_maze/build/uart_comm/build install --record /home/rpi/rc_maze/build/uart_comm/install.log --single-version-externally-managed install_data
+[1.999s] running egg_info
+[2.026s] writing ../../build/uart_comm/uart_comm.egg-info/PKG-INFO
+[2.026s] writing dependency_links to ../../build/uart_comm/uart_comm.egg-info/dependency_links.txt
+[2.028s] writing entry points to ../../build/uart_comm/uart_comm.egg-info/entry_points.txt
+[2.028s] writing requirements to ../../build/uart_comm/uart_comm.egg-info/requires.txt
+[2.029s] writing top-level names to ../../build/uart_comm/uart_comm.egg-info/top_level.txt
+[2.086s] reading manifest file '../../build/uart_comm/uart_comm.egg-info/SOURCES.txt'
+[2.086s] adding license file 'LICENSE'
+[2.087s] writing manifest file '../../build/uart_comm/uart_comm.egg-info/SOURCES.txt'
+[2.087s] running build
+[2.088s] running build_py
+[2.088s] copying uart_comm/uart.py -> /home/rpi/rc_maze/build/uart_comm/build/lib/uart_comm
+[2.088s] running install
+[2.097s] running install_lib
+[2.125s] copying /home/rpi/rc_maze/build/uart_comm/build/lib/uart_comm/uart.py -> /home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm
+[2.126s] byte-compiling /home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm/uart.py to uart.cpython-312.pyc
+[2.127s] running install_data
+[2.127s] running install_egg_info
+[2.156s] removing '/home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm-0.0.0-py3.12.egg-info' (and everything under it)
+[2.157s] Copying ../../build/uart_comm/uart_comm.egg-info to /home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm-0.0.0-py3.12.egg-info
+[2.159s] running install_scripts
+[2.349s] Installing subscriber script to /home/rpi/rc_maze/install/uart_comm/lib/uart_comm
+[2.349s] Installing uart_node script to /home/rpi/rc_maze/install/uart_comm/lib/uart_comm
+[2.351s] writing list of installed files to '/home/rpi/rc_maze/build/uart_comm/install.log'
+[2.432s] Invoked command in '/home/rpi/rc_maze/src/uart_comm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rpi/rc_maze/build/uart_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/uart_comm build --build-base /home/rpi/rc_maze/build/uart_comm/build install --record /home/rpi/rc_maze/build/uart_comm/install.log --single-version-externally-managed install_data

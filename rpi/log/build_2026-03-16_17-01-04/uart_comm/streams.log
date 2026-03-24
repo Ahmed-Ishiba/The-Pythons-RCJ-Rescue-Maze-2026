@@ -1,0 +1,19 @@
+[1.486s] Invoking command in '/home/rpi/rc_maze/build/uart_comm': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rpi/rc_maze/build/uart_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rpi/rc_maze/build/uart_comm/build --no-deps symlink_data --force
+[1.954s] running develop
+[2.239s] running egg_info
+[2.267s] writing uart_comm.egg-info/PKG-INFO
+[2.267s] writing dependency_links to uart_comm.egg-info/dependency_links.txt
+[2.268s] writing entry points to uart_comm.egg-info/entry_points.txt
+[2.269s] writing requirements to uart_comm.egg-info/requires.txt
+[2.269s] writing top-level names to uart_comm.egg-info/top_level.txt
+[2.326s] reading manifest file 'uart_comm.egg-info/SOURCES.txt'
+[2.327s] writing manifest file 'uart_comm.egg-info/SOURCES.txt'
+[2.356s] running build_ext
+[2.357s] Creating /home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart-comm.egg-link (link to .)
+[2.358s] Installing uart_node script to /home/rpi/rc_maze/install/uart_comm/lib/uart_comm
+[2.359s] 
+[2.359s] Installed /home/rpi/rc_maze/build/uart_comm
+[2.359s] running symlink_data
+[2.359s] symbolically linking /home/rpi/rc_maze/build/uart_comm/resource/uart_comm -> /home/rpi/rc_maze/install/uart_comm/share/ament_index/resource_index/packages
+[2.359s] symbolically linking /home/rpi/rc_maze/build/uart_comm/package.xml -> /home/rpi/rc_maze/install/uart_comm/share/uart_comm
+[2.447s] Invoked command in '/home/rpi/rc_maze/build/uart_comm' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rpi/rc_maze/build/uart_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rpi/rc_maze/build/uart_comm/build --no-deps symlink_data --force

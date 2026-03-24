@@ -1,0 +1,17 @@
+[1.505s] Invoking command in '/home/rpi/rc_maze/build/tof_sensors': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rpi/rc_maze/build/tof_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rpi/rc_maze/build/tof_sensors/build --no-deps symlink_data
+[1.962s] running develop
+[2.251s] running egg_info
+[2.277s] writing tof_sensors.egg-info/PKG-INFO
+[2.320s] writing dependency_links to tof_sensors.egg-info/dependency_links.txt
+[2.320s] writing entry points to tof_sensors.egg-info/entry_points.txt
+[2.321s] writing requirements to tof_sensors.egg-info/requires.txt
+[2.322s] writing top-level names to tof_sensors.egg-info/top_level.txt
+[2.379s] reading manifest file 'tof_sensors.egg-info/SOURCES.txt'
+[2.381s] writing manifest file 'tof_sensors.egg-info/SOURCES.txt'
+[2.410s] running build_ext
+[2.410s] Creating /home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages/tof-sensors.egg-link (link to .)
+[2.411s] Installing tof_node script to /home/rpi/rc_maze/install/tof_sensors/lib/tof_sensors
+[2.411s] 
+[2.411s] Installed /home/rpi/rc_maze/build/tof_sensors
+[2.411s] running symlink_data
+[2.505s] Invoked command in '/home/rpi/rc_maze/build/tof_sensors' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/rpi/rc_maze/build/tof_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rpi/rc_maze/build/tof_sensors/build --no-deps symlink_data

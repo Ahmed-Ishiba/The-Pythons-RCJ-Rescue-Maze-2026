@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/uart_comm/uart_comm.egg-info/PKG-INFO
+writing dependency_links to ../../build/uart_comm/uart_comm.egg-info/dependency_links.txt
+writing entry points to ../../build/uart_comm/uart_comm.egg-info/entry_points.txt
+writing requirements to ../../build/uart_comm/uart_comm.egg-info/requires.txt
+writing top-level names to ../../build/uart_comm/uart_comm.egg-info/top_level.txt
+reading manifest file '../../build/uart_comm/uart_comm.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/uart_comm/uart_comm.egg-info/SOURCES.txt'
+running build
+running build_py
+copying uart_comm/subscriber.py -> /home/rpi/rc_maze/build/uart_comm/build/lib/uart_comm
+running install
+running install_lib
+copying /home/rpi/rc_maze/build/uart_comm/build/lib/uart_comm/subscriber.py -> /home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm
+byte-compiling /home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm/subscriber.py to subscriber.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/uart_comm/uart_comm.egg-info to /home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm-0.0.0-py3.12.egg-info
+running install_scripts
+Installing subscriber script to /home/rpi/rc_maze/install/uart_comm/lib/uart_comm
+Installing uart_node script to /home/rpi/rc_maze/install/uart_comm/lib/uart_comm
+writing list of installed files to '/home/rpi/rc_maze/build/uart_comm/install.log'

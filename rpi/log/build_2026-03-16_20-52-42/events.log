@@ -1,0 +1,52 @@
+[0.000000] (-) TimerEvent: {}
+[0.000284] (-) JobUnselected: {'identifier': 'tof_sensors'}
+[0.000471] (uart_comm) JobQueued: {'identifier': 'uart_comm', 'dependencies': OrderedDict()}
+[0.000761] (uart_comm) JobStarted: {'identifier': 'uart_comm'}
+[0.099684] (-) TimerEvent: {}
+[0.200035] (-) TimerEvent: {}
+[0.300378] (-) TimerEvent: {}
+[0.400807] (-) TimerEvent: {}
+[0.501138] (-) TimerEvent: {}
+[0.601454] (-) TimerEvent: {}
+[0.701777] (-) TimerEvent: {}
+[0.802107] (-) TimerEvent: {}
+[0.902433] (-) TimerEvent: {}
+[1.002816] (-) TimerEvent: {}
+[1.103123] (-) TimerEvent: {}
+[1.203472] (-) TimerEvent: {}
+[1.222579] (uart_comm) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/uart_comm', 'build', '--build-base', '/home/rpi/rc_maze/build/uart_comm/build', 'install', '--record', '/home/rpi/rc_maze/build/uart_comm/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rpi/rc_maze/src/uart_comm', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rpi', 'SSH_CLIENT': '10.76.54.168 45268 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/rpi', 'OLDPWD': '/home/rpi', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_colcon_cd_root': '/opt/ros/jazzy/', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/rpi/rc_maze/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'rpi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'tmux-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/rpi/.local/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'ROS_DOMAIN_ID': '22', 'AMENT_PREFIX_PATH': '/home/rpi/rc_maze/install/uart_comm:/home/rpi/rc_maze/install/tof_sensors:/home/rpi/rc_maze/install/UART_comm:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/rpi/rc_maze/build/uart_comm', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.76.54.168 45268 10.76.54.86 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rpi/rc_maze/build/uart_comm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages:/home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages:/home/rpi/rc_maze/build/tof_sensors:/home/rpi/rc_maze/install/tof_sensors/lib/python3.12/site-packages:/home/rpi/rc_maze/build/UART_comm:/home/rpi/rc_maze/install/UART_comm/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.303585] (-) TimerEvent: {}
+[1.403936] (-) TimerEvent: {}
+[1.504252] (-) TimerEvent: {}
+[1.601908] (uart_comm) StdoutLine: {'line': b'running egg_info\n'}
+[1.604322] (-) TimerEvent: {}
+[1.629118] (uart_comm) StdoutLine: {'line': b'writing ../../build/uart_comm/uart_comm.egg-info/PKG-INFO\n'}
+[1.629528] (uart_comm) StdoutLine: {'line': b'writing dependency_links to ../../build/uart_comm/uart_comm.egg-info/dependency_links.txt\n'}
+[1.631649] (uart_comm) StdoutLine: {'line': b'writing entry points to ../../build/uart_comm/uart_comm.egg-info/entry_points.txt\n'}
+[1.632065] (uart_comm) StdoutLine: {'line': b'writing requirements to ../../build/uart_comm/uart_comm.egg-info/requires.txt\n'}
+[1.632643] (uart_comm) StdoutLine: {'line': b'writing top-level names to ../../build/uart_comm/uart_comm.egg-info/top_level.txt\n'}
+[1.689309] (uart_comm) StdoutLine: {'line': b"reading manifest file '../../build/uart_comm/uart_comm.egg-info/SOURCES.txt'\n"}
+[1.689643] (uart_comm) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.690387] (uart_comm) StdoutLine: {'line': b"writing manifest file '../../build/uart_comm/uart_comm.egg-info/SOURCES.txt'\n"}
+[1.690596] (uart_comm) StdoutLine: {'line': b'running build\n'}
+[1.690723] (uart_comm) StdoutLine: {'line': b'running build_py\n'}
+[1.690957] (uart_comm) StdoutLine: {'line': b'copying uart_comm/uart.py -> /home/rpi/rc_maze/build/uart_comm/build/lib/uart_comm\n'}
+[1.691372] (uart_comm) StdoutLine: {'line': b'running install\n'}
+[1.700617] (uart_comm) StdoutLine: {'line': b'running install_lib\n'}
+[1.704390] (-) TimerEvent: {}
+[1.728428] (uart_comm) StdoutLine: {'line': b'copying /home/rpi/rc_maze/build/uart_comm/build/lib/uart_comm/uart.py -> /home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm\n'}
+[1.729349] (uart_comm) StdoutLine: {'line': b'byte-compiling /home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm/uart.py to uart.cpython-312.pyc\n'}
+[1.730544] (uart_comm) StdoutLine: {'line': b'running install_data\n'}
+[1.730714] (uart_comm) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.760069] (uart_comm) StdoutLine: {'line': b"removing '/home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.760606] (uart_comm) StdoutLine: {'line': b'Copying ../../build/uart_comm/uart_comm.egg-info to /home/rpi/rc_maze/install/uart_comm/lib/python3.12/site-packages/uart_comm-0.0.0-py3.12.egg-info\n'}
+[1.761899] (uart_comm) StdoutLine: {'line': b'running install_scripts\n'}
+[1.804504] (-) TimerEvent: {}
+[1.904849] (-) TimerEvent: {}
+[1.951075] (uart_comm) StdoutLine: {'line': b'Installing subscriber script to /home/rpi/rc_maze/install/uart_comm/lib/uart_comm\n'}
+[1.951374] (uart_comm) StdoutLine: {'line': b'Installing uart_node script to /home/rpi/rc_maze/install/uart_comm/lib/uart_comm\n'}
+[1.953351] (uart_comm) StdoutLine: {'line': b"writing list of installed files to '/home/rpi/rc_maze/build/uart_comm/install.log'\n"}
+[2.004985] (-) TimerEvent: {}
+[2.031374] (uart_comm) CommandEnded: {'returncode': 0}
+[2.043963] (uart_comm) JobEnded: {'identifier': 'uart_comm', 'rc': 0}
+[2.044867] (-) EventReactorShutdown: {}
