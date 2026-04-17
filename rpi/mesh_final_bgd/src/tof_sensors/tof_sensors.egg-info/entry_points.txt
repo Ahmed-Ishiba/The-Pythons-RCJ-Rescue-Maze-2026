@@ -1,0 +1,3 @@
+[console_scripts]
+tof_node = tof_sensors.read_sensors:main
+two_tofs = tof_sensors.two_tofs:main
